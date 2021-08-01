@@ -104,3 +104,9 @@ body {
 .card h5{
     font-family: 'Lobster Two', cursive;
 }
+
+@media screen and (max-width: 360px) {
+  #searchbox{
+    width: 170px;
+  }
+}
