@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Lobster+Two:wght@700&family=Rye&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Lobster+Two:wght@700&family=Rye&display=swap");
 
-*{
-    font-family: 'Baloo 2', cursive;
-    margin: 0;
-    padding: 0;
+* {
+  font-family: "Baloo 2", cursive;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -13,20 +13,20 @@ body {
   min-height: 100vh;
 }
 
-.navbar h2{
-    margin-bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.navbar h2 {
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.navbar h2 span{
-    width: 30px;
-    margin-right: 5px;
+.navbar h2 span {
+  width: 30px;
+  margin-right: 5px;
 }
 
-.navbar h2 span img{
-    width: 100%;
+.navbar h2 span img {
+  width: 100%;
 }
 
 .btn-outline-success {
@@ -61,8 +61,11 @@ body {
 #input-card h1 {
   font-size: 2rem;
   color: #fff;
-  font-family: 'Rye', cursive;
+  font-family: "Rye", cursive;
   margin-bottom: 0;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  text-shadow: 2px 0px 5px white;
 }
 
 #notes {
@@ -101,12 +104,12 @@ body {
   }
 }
 
-.card h5{
-    font-family: 'Lobster Two', cursive;
+.card h5 {
+  font-family: "Lobster Two", cursive;
 }
 
 @media screen and (max-width: 360px) {
-  #searchbox{
+  #searchbox {
     width: 170px;
   }
 }
